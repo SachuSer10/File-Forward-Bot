@@ -16,7 +16,7 @@ lock = asyncio.Lock()
 async def start_message(bot, message):
     btn = [[
             InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Souce Code", callback_data="source")
+           
         ],[
             InlineKeyboardButton("Close", callback_data="close"),
             InlineKeyboardButton("Help", callback_data="help")
