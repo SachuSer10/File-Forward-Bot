@@ -25,7 +25,7 @@ async def query_handler(bot: Client, query: CallbackQuery):
     elif query.data == "home":
         btn = [[
             InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Souce Code", callback_data="source")
+            
         ],[
             InlineKeyboardButton("Close", callback_data="close"),
             InlineKeyboardButton("Help", callback_data="help")
